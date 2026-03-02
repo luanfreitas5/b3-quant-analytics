@@ -1,0 +1,11 @@
+project:
+    name: "B3 Quant Analytics"
+    timezone: "America/Sao_Paulo"
+
+data:
+    source: "Yahoo Finance"
+    frequency: "1d"
+
+model:
+    algorithm: "RandomForestRegressor"
+    objective: "Prever retorno diário t+1"
